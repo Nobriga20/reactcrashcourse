@@ -1,32 +1,26 @@
 
 import './App.css';
-import Todo from `./components/Todo.jsx`
-`
+import Todo from "./components/Todo.jsx"
+import Title from './components/Title.jsx'
+import counter from "./components/counter.jsx"
+
 
 function App() {
+  let isModalOpen = false
   return (
     <div>
-      <h1>My Todo List</h1>
-      <div>
-        <h2>Finish Frontend Simplified</h2>
-        <button>delete</button>
-      </div>
-      <div>
-        <h2>Finish Interview Section</h2>
-        <button>delete</button>
-      </div>
-      <div>
-        <h2>Land a 100k job</h2>
-        <button>delete</button>
-      </div>
+      <Title />
+      <Todo title="finish frontend simplified"
+      parapgraph="code along with frontend simplified step by step"
+      />
       
-  
-
-       
-
-    
-
-    
+      <Todo title="finish interview section" 
+      paragraph="finish every interview question in the next 6 weeks"
+      />\
+      <Todo title="land a 100k job" 
+      paragraph="apply to 100 jobs"
+      />
+    </div>
   );
 }
 
