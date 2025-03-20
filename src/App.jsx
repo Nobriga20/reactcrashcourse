@@ -2,7 +2,7 @@
 import './App.css';
 import Todo from "./components/Todo.jsx"
 import Title from './components/Title.jsx'
-import counter from "./components/counter.jsx"
+import Counter from "./components/counter.jsx"
 
 
 //esling-disable-next-line//

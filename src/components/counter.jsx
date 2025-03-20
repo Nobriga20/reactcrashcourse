@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
 
-function counter() {
+function Counter() {
     
     const[counter, setCounter] = useState (0)
     function incrementCounter(){
         setCounter (counter + 1)
     }
-    }
+    
 
     function decrementCounter() {
         setCounter (counter - 1)
@@ -20,4 +20,4 @@ function counter() {
         </div>
     )
 } 
-export default counter
+export default Counter
