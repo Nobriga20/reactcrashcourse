@@ -5,6 +5,7 @@ import Title from './components/Title.jsx'
 import counter from "./components/counter.jsx"
 
 
+//esling-disable-next-line//
 function App() {
   let isModalOpen = false
   return (
